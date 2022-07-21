@@ -1,3 +1,28 @@
 body{
     font-family: 'Ubuntu', sans-serif;
 }
+.banner-container{
+    background-color:#a8eaec;
+}
+.banner-column{
+    background: rgb(71, 200, 218);
+}
+.navbar-container{
+    background-color: crimson!important;
+    color: white!important;
+}
+.about-container{
+    background: rgb(172, 230, 235);
+}
+.education-container{
+    background-color: #E4E4E4;
+}
+.bg-redtype{
+    color: rgb(255, 77, 112);
+}
+.circle{
+    background:rgb(255, 77, 112);
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
