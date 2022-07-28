@@ -10,6 +10,9 @@ body{
 .navbar-container{
     background-color: crimson!important;
     color: white!important;
+    position: sticky;
+    top: 0;
+    z-index: 999;
 }
 .about-container{
     background: rgb(172, 230, 235);
@@ -20,9 +23,39 @@ body{
 .bg-redtype{
     color: rgb(255, 77, 112);
 }
+.bg-color{
+    background-color: rgb(255, 77, 112);
+}
+.bg-color:hover{
+    color: black!important;
+}
 .circle{
     background:rgb(255, 77, 112);
     width: 150px;
     height: 150px;
     border-radius: 50%;
+}
+.project-container{
+    background-color: #2CB2DF;
+}
+.form-container{
+    background: #464D5D;
+}
+.inner-form{
+    background: #383D4A;
+}
+.footer{
+    background-color: #1B708D;
+}
+.circle2{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    display: inline-block;
+    background-color: white;
+    font-size: 40px;
+    color: #2CB2DF;
+}
+.circle2:hover{
+    background-color: #1f667e;
 }
